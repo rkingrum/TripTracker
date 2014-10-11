@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorSplashText">#454545</color>
+	<color name="colorSplashGradientOut">#ba00ad</color>
+	<color name="colorSplashGradientIn">#009911</color>
+</resources>
