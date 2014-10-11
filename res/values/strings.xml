@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<string name="app_name">TripSit</string>
+	<string name="buttonLog">Log Trip</string>
+	<string name="welcome">TripSit</string>
+	<string name="tripLoggerHeader">Log Trip</string>
+	<string name="tripLoggerSubstance">Substance:</string>
+	<string name="tripLoggerDate">Date:</string>
+	<string name="tripLoggerTime">Time:</string>
 </resources>

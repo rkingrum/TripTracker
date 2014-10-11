@@ -6,6 +6,16 @@
 	<TextView
 			android:layout_width="fill_parent"
 			android:layout_height="wrap_content"
-			android:text="Hello World, Main" />
+			android:text="@string/welcome"
+			android:textSize="24sp"
+			android:gravity="center"
+			android:paddingTop="15dp"
+			android:paddingBottom="10dp"/>
+	<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/buttonLog"
+			android:textSize="18sp"
+			android:onClick="logTrip"/>
 </LinearLayout>
 

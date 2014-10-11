@@ -6,7 +6,8 @@
 		android:versionName="1.0">
 	<uses-sdk android:minSdkVersion="16"/>
 	<application
-			android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+			android:label="@string/app_name"
+			android:icon="@drawable/ic_launcher"
 			android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
 		<activity
 				android:name="Main"
@@ -22,5 +23,8 @@
 				<category android:name="android.intent.category.LAUNCHER"/>
 			</intent-filter>
 		</activity>
+		<activity
+				android:name=".TripLogger"
+				android:label="TripSit"/>
 	</application>
 </manifest>

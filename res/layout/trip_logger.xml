@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/tripLoggerHeader"
+			android:textSize="24sp"
+			android:gravity="center"
+			android:paddingTop="15dp"
+			android:paddingBottom="10dp"/>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/tripLoggerSubstance"
+			android:textSize="18sp"/>
+
+	<Spinner
+			android:id="@+id/tripLoggerSubstance"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textSize="18sp"/>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/tripLoggerDate"
+			android:textSize="18sp"/>
+
+	<DatePicker
+			android:id="@+id/tripLoggerDate"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:calendarViewShown="false"
+			android:textSize="18sp"/>
+
+	<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/tripLoggerTime"
+			android:textSize="18sp"/>
+
+	<TimePicker
+			android:id="@+id/tripLoggerTime"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18sp"/>
+
+</LinearLayout>
